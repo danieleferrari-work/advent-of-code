@@ -9,7 +9,7 @@ export default function day1() {
   let currentElfIndex = 0;
 
   input.split("\n").forEach((element) => {
-    if (element == "\r") {
+    if (element == "") {
       currentElfIndex = currentElfIndex + 1;
       elfsCalories[currentElfIndex] = 0;
     } else {
