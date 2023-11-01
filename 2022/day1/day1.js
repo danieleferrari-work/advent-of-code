@@ -1,7 +1,7 @@
 import fs from "fs";
 
 export default function day1() {
-  console.log("DAY1");
+  console.log("--- DAY1 ---");
 
   const input = fs.readFileSync("./day1/day1-input", "utf8");
 
@@ -20,11 +20,9 @@ export default function day1() {
 
   let sortedElfsCalories = elfsCalories.sort().reverse();
 
-  // PART 1
-  // console.log(sortedElfsCalories[0]);
+  console.log("Part 1: " + sortedElfsCalories[0]);
 
-  // PART 2
   console.log(
-    sortedElfsCalories[0] + sortedElfsCalories[1] + sortedElfsCalories[2]
+    "Part 2: " + (sortedElfsCalories[0] + sortedElfsCalories[1] + sortedElfsCalories[2])
   );
 }
