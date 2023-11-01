@@ -18,5 +18,8 @@
     "url": "https://github.com/danieleferrari-work/advent-of-code/issues"
   },
   "homepage": "https://github.com/danieleferrari-work/advent-of-code#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
